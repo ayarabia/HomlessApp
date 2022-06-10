@@ -1,0 +1,756 @@
+/* Header Start */
+
+* {
+    box-sizing: border-box !important;
+}
+
+.header {
+
+    background-image: url("../Images/header.webp");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    position: relative;
+    display: flex;
+    align-items: center;
+    z-index: 0;
+}
+
+.overlay {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .8;
+
+}
+
+.header .overlay {
+    background: linear-gradient(135deg, #0a4f53 0%, rgba(145, 129, 66, 0.1) 67%, rgba(212, 154, 58, 0.1) 100%);
+}
+
+.header .container .Info {
+    color: #fff;
+}
+
+.header .container .Info p {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.9)
+}
+
+.header .container .Info h1 {
+    font-size: 60px;
+    line-height: 1.4;
+    margin-bottom: 32px;
+}
+@media (max-width:787px) {
+    .header .container .Info {
+        text-align: center;
+    }
+    .header .container .Info h1{
+        font-size: 35px;
+    }
+    .header .container .Info .btn{
+        width: 100% ;
+    } 
+}
+.header .container .Info .btn,
+.causes .card-body .btn,
+.pageSpeed .container .btn ,
+.care .btn,
+.blog .peapleSay .box .info .btn{
+    background-color: #D49A3A;
+    border-color: #D49A3A;
+    padding: 14px 30px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    color: #fff;
+
+}
+
+
+/* Header End */
+/* JoinUs End */
+.JoinUs {
+
+    background-color: #F3F0EB;
+}
+
+.JoinUs .headingSection {
+    padding: 90px 20px 90px 9px;
+}
+
+.JoinUs .headingSection p:first-child,
+.appointment form p,
+.appointment .nan p,
+.statistics .container p,
+.causes p,
+.pageSpeed p,
+.volunteer  p,
+.testimony .container p,
+.care p:first-child,
+.blog .title p{
+    font-weight: 500;
+    color: #D49A3A;
+    font-size: 16px;
+}
+
+.JoinUs .headingSection h1,
+.appointment form h3,
+.statistics .container h1,
+.causes h1,
+.pageSpeed h1 ,
+.volunteer h2,
+.testimony .container h1,
+.care h1,
+.blog  .title h1,.blog .peapleSay .box .info h4{
+    color: #39311d;
+    font-size: 63px;
+    font-weight: 500;
+    line-height: 1.4;
+    font-family: "Patrick Hand", cursive;
+
+}
+
+.JoinUs .headingSection .description ,.care p ,.blog .peapleSay .box .info p {
+    font-family: "Poppins", Arial, sans-serif;
+    line-height: 1.8;
+    font-weight: 400;
+    color: #666666;
+    font-size: 17px;
+}
+
+.JoinUs .headingSection .icon {
+
+    background-color: #fff;
+    padding: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    margin-right: 15px !important;
+}
+
+
+.JoinUs .headingSection .icon:hover {
+    background-color: #0A686E;
+    color: #fff;
+}
+
+.JoinUs .headingSection .icon div {
+    background-color: #D49A3A;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.JoinUs .headingSection .icon h5 {
+    font-family: "Patrick Hand", cursive;
+}
+
+.JoinUs .headingSection .icon div img {
+    width: 40px;
+
+    height: 40px;
+}
+
+
+.appointment .donate {
+
+    position: relative;
+    margin-top: -126px
+}
+
+.appointment .nan {
+    background-color: #0A686E;
+    display: flex;
+    align-items: center;
+    padding: 16px 35px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+
+}
+
+.appointment .nan img {
+    width: 70px;
+    height: 70px;
+    margin-right: 25px;
+}
+
+.appointment .nan h1 {
+    color: #fff;
+}
+
+.JoinUs .appointment form h3 {
+    color: #fff;
+    font-size: 30px;
+
+}
+
+.JoinUs .appointment form {
+
+    background-color: #39311D;
+    padding: 35px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+
+}
+
+.JoinUs .appointment form .form-label {
+    color: #D49A3A;
+}
+
+.JoinUs .appointment form .form-control,
+.JoinUs form .form-select {
+    background-color: #433C29;
+    border-color: #433C29;
+    color: rgba(255, 255, 255, 0.7) !important;
+    padding: 15px !important;
+
+}
+
+.JoinUs .appointment form .form-check label {
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.JoinUs .appointment form button[type=submit] {
+    display: block !important;
+    width: 100%;
+    background-color: #D49A3A;
+    border-color: #D49A3A;
+    margin-bottom: 230px;
+
+    padding: 15px;
+}
+
+/* JoinUs End */
+/* Statistics Start */
+.statistics ,.pageSpeed ,.testimony{
+    position: relative;
+    z-index: -6;
+    background-image: url("../Images/statistics.webp");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+ 
+
+}
+
+.statistics .container,
+.causes,
+.pageSpeed ,
+.volunteer,
+.testimony,
+.blog
+{
+    padding: 100px 0;
+}
+
+.statistics .overlay {
+    background: #063c3f;
+
+}
+
+.statistics .container p,
+.statistics .container h1 {
+    color: #fff;
+
+}
+
+.statistics .container h1 {
+    margin-bottom: 50px;
+}
+.statistics .servicesGrid ,.volunteer .team {
+    display: grid;
+    grid-template-columns: repeat(auto-fill ,minmax(300px,1fr));
+    gap: 20px;
+    padding: 5px 20px;
+}
+.statistics .container .services {
+
+ 
+    padding: 30px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    margin-bottom: 17px;
+}
+
+.statistics .container .services img {
+    width: 50px;
+    height: 50px;
+}
+
+.statistics .container .services h2 {
+    color: #fff;
+    font-size: 39px;
+    margin-top: 15px;
+
+    font-family: "Patrick Hand", cursive;
+
+}
+
+.statistics .container .services p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 15px;
+}
+
+/* Statistics End */
+/* Causes Start*/
+.causes .container .card{
+    position: relative;
+}
+.causes .container .card .searchIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50% 50% 50% 0;
+    background:rgba(255, 255, 255, 0.8);
+    transition: all 0.3s ease;
+    opacity: 0;
+    -webkit-border-radius: 50% 50% 50% 0;
+    -moz-border-radius: 50% 50% 50% 0;
+    -ms-border-radius: 50% 50% 50% 0;
+    -o-border-radius: 50% 50% 50% 0;
+}
+.causes .container .card:hover .searchIcon{
+opacity: 1;
+}
+.causes .container .card .card-img-top {
+    height: 300px !important
+}
+
+.causes .container .card .card-body {
+    background-color: #E9E4DB;
+    padding: 32px;
+    border-color: #E9E4DB;
+
+}
+
+.causes .card-body .btn {
+    padding: 5px;
+    margin: auto;
+    margin-bottom: 13px;
+    display: block;
+
+    margin-top: -55px;
+}
+
+.causes .container .card .card-title {
+    color: #39311d;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.4;
+    font-family: "Patrick Hand", cursive;
+}
+
+.causes .container .card .card-text {
+    color: #666666;
+    font-size: 16px;
+    line-height: 1.8;
+    padding-right: 60px;
+    font-weight: 500;
+}
+
+.causes .container .card .card-footer {
+    position: relative;
+    background-color: #e0d8cb;
+    border-color: #e0d8cb;
+    padding: 37px 32px;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.causes .container .card .card-footer .label {
+    position: absolute;
+    top: 8px;
+    left: 59%;
+    background-color: #0A686E;
+    color: #fff;
+    padding: 1px;
+
+}
+
+.causes .container .card .card-footer .label span {
+    position: absolute;
+    display: block;
+    background-color: #0A686E;
+    bottom: -3px;
+    width: 4px;
+    height: 4px;
+    right: 0;
+
+}
+
+.causes .container .card .card-footer:hover {
+    background-color: #D49A3A;
+
+}
+
+.causes .container .card .card-footer .raside-goal {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 17px;
+}
+
+.causes .container .card .card-footer div p:first-child {
+    color: #000000;
+
+}
+
+.causes .container .card .card-footer div p:last-child {
+    color: #0a686e
+}
+
+.causes .container .card .card-footer div p strong {
+    font-size: 20px;
+}
+
+.causes .container .card .card-footer .progress {
+
+    height: 11px !important;
+}
+
+.causes .container .card .card-footer .progress-bar {
+    background-color: #0A686E;
+
+
+}
+
+.causes .container .owl-dots ,.testimony .container .owl-dots{
+    margin-top: 50px !important;
+}
+
+.causes .container .owl-dots .active span ,.testimony .container .owl-dots .active span{
+    background-color: #D49A3A !important;
+}
+
+.causes .container .owl-dots span ,.testimony .container .owl-dots span{
+
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -ms-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+}
+
+/* Causes End */
+/* PageSpeed Start */
+.pageSpeed {
+
+    background-image: url("../Images/pagespeed.webp");
+ 
+
+}
+
+.pageSpeed .overlay {
+    background: #000000;
+    opacity: .6;
+
+}
+
+.pageSpeed .container h1,
+.pageSpeed .container p {
+    color: #fff;
+
+}
+
+.pageSpeed .container h1 {
+   
+    margin-bottom: 30px;
+}
+
+.pageSpeed .container .volunteer {
+    background-color: #0A686E;
+    border-color: #0A686E;
+    margin-left: 8px;
+  
+  
+}
+
+@media (max-width:787px) {
+    .pageSpeed .container .volunteer{
+        margin-top: 20px;
+    }   
+}
+
+/* PageSpeed End */
+/* Volunteer Start */
+.volunteer{
+    background-color: #F3F0EB;
+}
+.volunteer h2{
+margin-bottom: 190px;
+}
+.volunteer .team{
+    padding: 20px;
+   
+}
+.volunteer .staff{
+   position: relative;
+   background-color: #fff;
+   padding: 110px 30px 30px 30px;
+   transition: .5s;
+ 
+   -webkit-transition: .5s;
+   -moz-transition: .5s;
+   -ms-transition: .5s;
+   -o-transition: .5s;
+}
+@media (max-width:992px) {
+    .volunteer .team .staff{
+        margin-bottom: 120px;
+    }
+}
+.volunteer .staff .image{
+  width: 200px;
+  height: 200px;
+ z-index: 20;
+
+  background-color: #f3f0eb;
+ position: absolute;
+  top: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+
+
+  border-radius:50% ;
+  -webkit-border-radius:50% ;
+  -moz-border-radius:50% ;
+  -ms-border-radius:50% ;
+  -o-border-radius:50% ;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+.volunteer .staff .image img{
+    height: 100%;
+     border: 5px solid #f3f0eb;
+    width: 100%; border-radius: 50%; -webkit-border-radius: 50%; -moz-border-radius: 50%; -ms-border-radius: 50%; -o-border-radius: 50%;
+}
+.volunteer .staff h3{
+margin-top: 35px;
+}
+.volunteer .staff .social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.volunteer .staff .social .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #D49A3A;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+} 
+.volunteer .staff p:last-child{
+color: #666666;
+font-size: 16px;
+margin-top: 20px;
+}
+.volunteer .staff:hover{
+    background-color: #0A686E;
+
+}
+.volunteer .staff:hover p:first-child,.volunteer .staff:hover h3{
+color: #fff;
+}
+.volunteer .staff:hover p:last-child{
+color: #ccc;
+}
+.volunteer .staff:hover .social .icon{
+    background-color: #0e868fe3;
+}
+/* Volunteer End */
+/* Testimony  Start*/
+.testimony{
+    background-image: url(../Images/testimony.webp);
+}
+.testimony .container p ,.testimony .container h1{
+    color: #fff;
+}
+.testimony .overlay{
+    background: #063c3f;
+  
+}
+.testimony .person{
+    margin-top: 80px;
+    background-color: #fff;
+    padding: 30px;
+    position: relative;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius:4px;
+    -ms-border-radius: 4px;
+    -o-border-radius:4px;
+    box-shadow: 0px 30px 33px -41px rgb(0 0 0 / 24%);
+}
+.testimony .person .icon{
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f3f0eb;;
+    position: absolute;
+    top: -20px;
+    background-color: #D49A3A;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.testimony .person p{
+   
+    font-size: 16px;
+  line-height: 1.8;
+ color: #666666;
+ 
+}
+.testimony .person .info{
+    display: flex;
+    align-items: center;
+   
+}
+.testimony .person .info img{ 
+    width: 80px;
+    height: 80px;
+    border-radius:50% ; -webkit-border-radius:50% ; -moz-border-radius:50% ; -ms-border-radius:50% ; -o-border-radius:50% ;
+}
+.testimony .person .info div{
+  padding: 13px 0px 0  20px;
+ 
+}
+.testimony .person .info div h4{
+color: #D49A3A;
+}
+/* .testimony .container .owl-stage .active{
+    background-color: #D49A3A !important;
+} */
+
+/* Testimony  End*/
+/* Care Start*/
+.care{
+    background-color: #F3F0EB;
+}
+.care .image{
+    background-image: url(../Images/about.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ .care .title{
+ 
+    padding: 100px 50px ;
+}
+.care .title .btn ,.blog .peapleSay .box .info .btn{
+    background-color: #0A686E;
+    border-color: #0A686E;
+    color: #fff;
+}
+
+/* Care  End*/
+/* Blog End*/
+.blog{
+    background-color: #F3F0EB;
+}
+.blog .peapleSay{
+    display: grid;
+    grid-template-columns: repeat(auto-fill ,minmax(350px,1fr));
+    gap: 25px;
+    margin-top: 80px;
+}
+.blog .peapleSay .box {
+    background-color: #fff;
+    border-radius: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+}
+.blog .peapleSay .box .image img{
+width: 100%;
+}
+.blog .peapleSay .box .info{
+padding: 45px 30px;
+position: relative;
+
+}
+.blog .peapleSay .box .info h4{
+    font-size: 30px;
+}
+.blog .peapleSay .box .info .comments {
+   
+    background-color: #F3F0EB;
+    
+    flex-wrap: wrap;
+ 
+    padding: 15px;
+    margin-bottom: 15px;
+  margin-top: -70px;
+}
+.blog .peapleSay .box .info .comments span {
+    margin-right: 10px;
+    font-size: 13px;
+}
+.blog .peapleSay .box .info .comments  span svg ,.blog .peapleSay .box .info .comments .message{
+    color: #D49A3A;
+}
+
+/* Blog End*/

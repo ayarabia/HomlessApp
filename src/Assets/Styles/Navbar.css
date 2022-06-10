@@ -1,0 +1,51 @@
+
+.navbar{
+    background: transparent !important;
+    position: absolute !important;
+    top: 0px;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    padding: 0
+}
+@media (max-width:787px) {
+   .navbar{
+       background: #39311D !important;
+   } 
+  .navbar-toggler {
+   background-color:  #fff !important;
+    border-color: #fff !important;
+}
+
+}
+.navbar-collapse{
+    flex-grow: 0 !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: rgba(255, 255, 255, 0.7) !important;
+    padding: 30px 35px !important;
+    font-family:    "Patrick Hand", cursive;
+    font-size: 20px !important;
+}
+.navbar-brand{
+    color: #D49A3A !important;
+    font-weight: 700;
+    font-size: 21px !important;
+}
+.navbar-brand span:first-child{
+    color: #fff;
+}
+.navbar-brand span:first-child:hover{
+    color: black;
+}
+.navbar-brand span:last-child{
+font-size: 14px;
+color: rgba(255, 255, 255, 0.8);
+line-height: 1.1;
+text-transform: uppercase;
+font-size: 11px;
+display: block;
+font-weight: 600;
+letter-spacing: 2px;
+
+}

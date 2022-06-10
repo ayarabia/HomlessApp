@@ -1,0 +1,135 @@
+a{
+    text-decoration: none !important;
+    color: #fff;
+}
+
+.footer{
+    padding: 100px 0;
+    background-color: #042628;
+    color: #fff;
+}
+.footer .container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill ,minmax(350px,1fr));
+    gap: 20px;
+}
+.footer .brand {
+  
+
+    color: #D49A3A !important;
+    font-weight: 700;
+    font-size: 28px !important;
+}
+.footer .brand  span:first-child{
+    color: #fff;
+}
+.footer .brand  span:first-child:hover{
+    color: black;
+}
+ .footer .brand span:last-child{
+    font-size: 27px;
+color: rgba(255, 255, 255, 0.8);
+line-height: 1.1;
+text-transform: uppercase;
+font-size: 11px;
+display: block;
+font-weight: 600;
+letter-spacing: 2px;
+}
+.footer .box .description{
+    font-family: "Poppins", Arial, sans-serif;
+    line-height: 1.8;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 17px;
+    margin-top: 50px;
+}
+.footer .box .social{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+   
+}
+.footer .box  .social .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 7px;
+    color: #fff;
+    background-color: #D49A3A;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+} 
+.footer .recentPosts{
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+
+}
+
+.footer .recentPosts .image ,.footer .recentPosts .image2{
+ background-image: url('../Images/cause-1.webp');
+ background-position: center center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ width: 120px;
+ height: 80px;
+ border-radius: 4px;
+ -webkit-border-radius: 4px;
+ -moz-border-radius: 4px;
+ -ms-border-radius: 4px;
+ -o-border-radius: 4px;
+}
+.footer .recentPosts .image2{
+    background-image: url('../Images/cause-2.webp');
+    
+}
+.footer .recentPosts  .info{
+    padding-left: 25px;
+}
+.footer .recentPosts .comments{
+    display: flex;
+    align-items: center;
+  
+    padding: 15px 0px;
+}
+.footer .recentPosts .comments div{
+    margin-right: 10px;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.9);
+ 
+   
+}
+.footer .recentPosts h3{
+    font-size: 25px;
+    font-family: "Patrick Hand", cursive
+}
+.footer ul{
+
+    list-style: none;
+}
+.footer ul li{
+    margin-bottom: 25px;
+}
+.footer ul li a{
+    color: rgba(255, 255, 255, 0.9);
+    display: flex;
+
+}
+.footer ul li a .text{
+padding-left: 20px;
+
+
+}
+.copyRight{
+    text-align: center;
+    padding: 40px 0;
+    background-color: #053336;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 18px;
+}

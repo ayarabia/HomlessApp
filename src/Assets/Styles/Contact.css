@@ -1,0 +1,63 @@
+.map{
+    padding: 100px 0;
+    background-color: #EFEBE5;
+}
+.contact{
+    background-color: #fff;
+    padding: 60px 50px;
+}
+.contact h3{
+    
+    color: #000000;
+    font-weight: 500;
+    font-size: 30px;
+    font-family: "Patrick Hand", cursive
+}
+.contact p{
+    color: #666666;
+    margin-bottom: 28px;
+    font-size: 20px;
+}
+.contact a{
+    color: #d49a3a;
+    font-size: 20px;
+}
+.contact .row .form-control{
+    margin-bottom: 10px;
+    height: 45px;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 14px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+.contact .btn{
+    background-color: #D49A3A;
+    border-color: #D49A3A;
+    padding: 14px 30px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 50px;
+
+}
+.contact .followUs p{
+    color: #000000;
+    font-family: 400;
+    font-family:    "Patrick Hand", cursive;
+}
+.contact .followUs a{
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 14px;
+
+}
+.contact .followUs a:hover{
+    color: #000000;
+}
