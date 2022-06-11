@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/HomlessApp/static/css/main.6144d3e8.css",
+    "main.js": "/HomlessApp/static/js/main.0a4e29fd.js",
+    "static/js/787.ae2d5512.chunk.js": "/HomlessApp/static/js/787.ae2d5512.chunk.js",
+    "static/media/pagespeed.webp": "/HomlessApp/static/media/pagespeed.bb0e37042a761dcfdd57.webp",
+    "static/media/cause-3.jpg": "/HomlessApp/static/media/cause-3.80698f3bfe6a05cbc518.jpg",
+    "static/media/testimony.webp": "/HomlessApp/static/media/testimony.d4bcd16b21fbce6ea4a5.webp",
+    "static/media/statistics.webp": "/HomlessApp/static/media/statistics.71a7f27440e46d1875e0.webp",
+    "static/media/sections.webp": "/HomlessApp/static/media/sections.efa60d034fc5c4401169.webp",
+    "static/media/about.webp": "/HomlessApp/static/media/about.5b493da5c8eaaecbc72c.webp",
+    "static/media/cause-1.webp": "/HomlessApp/static/media/cause-1.aa6d6e067173b2e89d2d.webp",
+    "static/media/cause-2.webp": "/HomlessApp/static/media/cause-2.d227a0bde11e235705f2.webp",
+    "static/media/staff1.webp": "/HomlessApp/static/media/staff1.2c515cd76c063ed610e4.webp",
+    "static/media/header.webp": "/HomlessApp/static/media/header.b2d8f079b0cb4c66fd65.webp",
+    "static/media/cause-4.webp": "/HomlessApp/static/media/cause-4.f00595a6498638d78f4c.webp",
+    "static/media/staff3.webp": "/HomlessApp/static/media/staff3.9ff592f291463e9e0a8d.webp",
+    "static/media/person_2.webp": "/HomlessApp/static/media/person_2.0ae9fe035ad7bd3d1169.webp",
+    "static/media/staff4.webp": "/HomlessApp/static/media/staff4.8d38ea6dce261c7e5287.webp",
+    "static/media/staff2.webp": "/HomlessApp/static/media/staff2.13bc3ab608b5efe3fe40.webp",
+    "static/media/person_1.webp": "/HomlessApp/static/media/person_1.aed58a44bd60d51d7c46.webp",
+    "static/media/person_3.webp": "/HomlessApp/static/media/person_3.40c3d8b184e2e8c8120c.webp",
+    "static/media/heart.png": "/HomlessApp/static/media/heart.efb590962fdd2ef4c934.png",
+    "static/media/person_4.webp": "/HomlessApp/static/media/person_4.f3c6e68701332bece24a.webp",
+    "index.html": "/HomlessApp/index.html",
+    "main.6144d3e8.css.map": "/HomlessApp/static/css/main.6144d3e8.css.map",
+    "main.0a4e29fd.js.map": "/HomlessApp/static/js/main.0a4e29fd.js.map",
+    "787.ae2d5512.chunk.js.map": "/HomlessApp/static/js/787.ae2d5512.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6144d3e8.css",
+    "static/js/main.0a4e29fd.js"
+  ]
+}
